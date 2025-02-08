@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 
 // Import Components
 import Landing from './components/Landing.jsx';
+import Navbar from './components/Navbar.jsx';
 
 // Import App.css for tailwind
 import './App.css';
@@ -12,6 +13,7 @@ function App() {
 
   return (
     <>
+      <Navbar isLoading={isLoading} />
       <Landing isLoading={isLoading} setIsLoading={setIsLoading}/>
     </>
   )
