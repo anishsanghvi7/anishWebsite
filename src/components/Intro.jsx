@@ -7,7 +7,7 @@ export default function Intro() {
 
     return (
         <>
-        <div className='flex w-[100vw] h-[55vh] p-[40px] bg-[#111e21] text-white pb-0'>
+        <div className='flex w-[100vw] h-[55vh] p-[40px] bg-[#111e21] text-[#d4e6e1] pb-0'>
             <h2 className='font-bold text-[#7ab4c2] aboutMeHeader'>about me</h2>
             <p className='flex-4 text-[1.8vw] items-center content-center'>
                 I'm currently a penultimate Bioinformatics Engineering and Biomedical Engineering Student at the University of New South Wales with a <b>strong interest in Data Science and Fronted Engineering</b>.
@@ -17,7 +17,7 @@ export default function Intro() {
             </p>
         </div>
 
-        <div className='w-[100vw] h-[20vh] px-[40px] bg-[#111e21] text-white'>
+        <div className='w-[100vw] h-[20vh] px-[40px] bg-[#111e21] text-[#d4e6e1]'>
             <h2 className='text-center font-bold text-[3vw] underline text-[#7ab4c2]'>Languages</h2>
             <div className="flex flex-wrap justify-center w-full mt-[10px] gap-2.5">
                 {languages.map((language, index) => (
