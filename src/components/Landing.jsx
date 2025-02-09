@@ -18,13 +18,12 @@ export default function Landing({isLoading, setIsLoading}) {
         <>
         <div id='landingContainer' className='flex w-[100vw] h-[100vh] items-center justify-center text-white p-[0]'>
             {/* Background overlay */}
-            <div className="absolute inset-0 bg-[#111e21] z-[-11]"></div>
+            <div className="absolute inset-0 bg-[#111e21] z-[-11] w-[100vw]"></div>
 
             {/* Video Background */}
             <video
                 id="backgroundWaves"
-                className={`w-[100vw] h-[100vh] fixed top-0 left-0 w-screen h-screen object-cover -z-10 brightness-50 overflow-hidden overflow-hidden`}
-                // className={`${isLoading ? 'opacity-0' : 'opacity-100'} w-[100vw] h-[100vh] fixed top-0 left-0 w-screen h-screen object-cover -z-10 brightness-50 overflow-hidden overflow-hidden transition-opacity duration-6000 ease-in-out`}
+                className={`w-[100vw] h-[100vh] fixed top-0 left-0 w-screen h-screen object-cover -z-10 brightness-40 overflow-hidden`}
                 autoPlay
                 loop
                 muted

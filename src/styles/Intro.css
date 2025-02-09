@@ -1,0 +1,63 @@
+.aboutMeHeader {
+    margin: 0;
+    font-size: 10vh;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    flex-shrink: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#languageBox {
+    background-color: #3333;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1.5vw;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+#languageBox:nth-child(1):hover {
+    background-color: #1e90ff;
+    color: white;
+}
+
+#languageBox:nth-child(2):hover {
+    background-color: #ffd43b;
+}
+
+#languageBox:nth-child(3):hover {
+    background-color: #e34c26;
+    color: white;
+}
+
+#languageBox:nth-child(4):hover {
+    background-color: #264de4;
+    color: white;
+}
+
+#languageBox:nth-child(5):hover {
+    background-color: #f7df1e;
+}
+
+#languageBox:nth-child(6):hover {
+    background-color: #61dafb;
+}
+
+#languageBox:nth-child(7):hover {
+    background-color: #4e4e4e;
+    color: white;
+}
+
+#languageBox:nth-child(8):hover {
+    background-color: #b07219;
+    color: white;
+}
+
+#languageBox:nth-child(9):hover {
+    background-color: #555555;
+    color: white;
+}
